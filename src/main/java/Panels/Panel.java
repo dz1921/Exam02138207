@@ -3,7 +3,7 @@ package Panels;
 import javax.swing.*;
 import java.util.ArrayList;
 
-public class Panel extends JPanel {
+abstract class Panel extends JPanel {
     protected ArrayList<Patient> patients;
 
     public Panel(Patient patient){
