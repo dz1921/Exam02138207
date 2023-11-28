@@ -1,8 +1,6 @@
 import Examinations.BPExamination;
 import Examinations.MRIExamination;
 import Panels.*;
-
-
 import javax.swing.*;
 import java.awt.*;
 import java.time.LocalDate;

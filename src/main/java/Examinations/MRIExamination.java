@@ -1,7 +1,5 @@
 package Examinations;
 
-import Examinations.Examination;
-
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.LocalDate;

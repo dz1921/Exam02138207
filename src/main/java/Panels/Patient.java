@@ -1,7 +1,6 @@
 package Panels;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.ArrayList;
 import Examinations.*;
 
 public class Patient {
