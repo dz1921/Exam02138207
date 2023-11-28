@@ -1,21 +1,17 @@
-import Examinations.Examination;
-import Examinations.MRIExamination;
+package Panels;
+
+import Panels.Panel;
 
 import javax.swing.*;
 import java.awt.*;
 import java.net.URL;
-import java.util.ArrayList;
 
-public class DoctorsPanel extends JPanel {
-    private ArrayList<Patient> patients;
+public class DoctorsPanel extends Panel {
 
     public DoctorsPanel(Patient patient){
-        patients = new ArrayList<>();
-        patients.add(patient);
+        super(patient);
     }
-    public void addPatient(Patient patient){
-        patients.add(patient);
-    }
+    @Override
     public void addToPanel(){
         int i = 0;
         for (Patient patient : patients) {

@@ -1,10 +1,10 @@
 import Examinations.BPExamination;
 import Examinations.MRIExamination;
+import Panels.*;
+
 
 import javax.swing.*;
 import java.awt.*;
-import java.net.MalformedURLException;
-import java.net.URL;
 import java.time.LocalDate;
 
 public class PanelControl extends JPanel {
